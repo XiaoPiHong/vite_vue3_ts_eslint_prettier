@@ -26,3 +26,8 @@ pnpm install eslint eslint-plugin-vue eslint-config-prettier prettier eslint-plu
 npm run lint-create
 pnpm install eslint-import-resolver-alias @types/eslint @types/node -D
 pnpm install vite-plugin-eslint -D
+pnpm install husky lint-staged -D
+pnpm install @commitlint/cli @commitlint/config-conventional -D
+pnpm install stylelint -D
+pnpm install postcss postcss-html stylelint-config-recommended-vue stylelint-config-standard-scss -D
+pnpm install vite-plugin-stylelint -D
